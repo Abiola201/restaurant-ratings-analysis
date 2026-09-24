@@ -24,7 +24,7 @@ The full write-up, including methodology and detailed findings, is in [`Restaura
 ---
 
 ## Project Overview
-
+![Overview](Screenshot%202026-09-24%20203716%20Overview.png)
 This capstone was assigned as part of the Digitaley Drive Data Analyst Bootcamp. The brief frames the analyst as contracted to analyze a restaurant rating dataset and draw out insight that would help business entrepreneurs and investors make more informed decisions. Four guiding questions were set:
 
 1. What can be learned from the highest-rated restaurants? Do consumer preferences affect ratings?
@@ -69,7 +69,7 @@ Cleaning and modeling were done in Power Query:
 ## Analysis
 
 ### Q1 — What distinguishes the highest-rated restaurants? Do preferences affect ratings?
-
+![Ratings drivers](Screenshot%202026-09-24%20203818%20Rating%20drivers.png)
 Across 1,161 ratings, the overall average is 1.20/2 (Food 1.22, Service 1.09), with 42% "Highly Satisfactory" and 22% "Unsatisfactory."
 
 - **Price:** Low 1.07 vs. Medium 1.25 / High 1.26
@@ -84,7 +84,7 @@ Consumer-side differences are larger: Social drinkers (1.34) vs. casual drinkers
 Top-rated restaurants (min. 5 ratings): Las Mañanitas, Emilianos, and Michiko Restaurant Japonés each average 2.00/2, though on samples of only 5–8 ratings.
 
 ### Q2 — Who are the consumers? Is the sample biased?
-
+![Consumers](Screenshot%202026-09-24%20203905%20consumers.png)
 - 86% of those reporting an occupation are students
 - 80% are 25 or younger (101 of 138 in the 21–25 bracket alone)
 - 92% of those reporting marital status are single
@@ -93,7 +93,7 @@ Top-rated restaurants (min. 5 ratings): Las Mañanitas, Emilianos, and Michiko R
 The sample represents young, single, budget-conscious diners — largely students — not the broader Mexican dining public. Small subgroups (2 unemployed consumers, 5 high-budget consumers) are too small for firm conclusions.
 
 ### Q3 — Are there demand and supply gaps?
-
+![Demand and supply](Screenshot%202026-09-24%20203955%20Demand%20and%20supply.png)
 | Cuisine | Consumers preferring | Restaurants serving | Classification |
 |---|---|---|---|
 | Mexican | 97 | 28 | Under-supplied |
@@ -107,7 +107,7 @@ The sample represents young, single, budget-conscious diners — largely student
 Mexican cuisine is the most-demanded category (97 of 138 consumers) yet remains under-supplied. A parallel gap exists on price: 35% of restaurants are low-priced against 25–27% of consumers with a low budget, while 19% of restaurants are high-priced against just 4% of consumers with a high budget.
 
 ### Q4 — What should an investor look for?
-
+![Investment](Screenshot%202026-09-24%20204044%20Investment.png)
 - **Price point:** Medium or high, not low
 - **Setting:** Enclosed/closed-area rather than open-air
 - **Location:** Cuernavaca (1.38 avg.) or San Luis Potosí (1.21) over Ciudad Victoria (0.93)
